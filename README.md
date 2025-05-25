@@ -1,3 +1,6 @@
+<image src="https://i.ibb.co/LzHrHgKN/bmiSS1.jpg">
+<image src="https://i.ibb.co/Wv4cpMWH/bmiSS2.jpg">
+
 # 🧮 BMI Calculator
 
 A beautifully designed and easy-to-use **Body Mass Index (BMI)** Calculator built with **React Native** and **Expo**. This app allows users to enter their **weight** and **height** to calculate their BMI and check their health category.
