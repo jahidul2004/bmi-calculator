@@ -1,5 +1,4 @@
-<image src="https://i.ibb.co/LzHrHgKN/bmiSS1.jpg">
-<image src="https://i.ibb.co/Wv4cpMWH/bmiSS2.jpg">
+<image src="https://i.ibb.co/23jK1QC0/Splash-Screen-Final.png">
 
 # 🧮 BMI Calculator
 
