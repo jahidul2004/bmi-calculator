@@ -1,50 +1,143 @@
-# Welcome to your Expo app 👋
+# 🧮 BMI Calculator
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A beautifully designed and easy-to-use **Body Mass Index (BMI)** Calculator built with **React Native** and **Expo**. This app allows users to enter their **weight** and **height** to calculate their BMI and check their health category.
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 Features
 
-   ```bash
-   npm install
-   ```
+-   ✅ Clean & modern UI
+-   📏 Weight and Height input
+-   📊 Real-time BMI calculation
+-   🧠 Displays BMI Category (Underweight, Normal, Overweight, Obese)
+-   🌐 Developer portfolio link included
+-   📱 Fully responsive layout
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🧮 How BMI Works
 
-In the output, you'll find options to open the app in a
+### 📐 BMI Formula:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+BMI = weight (kg) / [height (m)]²
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 📊 BMI Categories:
 
-## Learn more
+| BMI Range | Category      |
+| --------- | ------------- |
+| < 18.5    | Underweight   |
+| 18.5–24.9 | Normal weight |
+| 25–29.9   | Overweight    |
+| ≥ 30      | Obese         |
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📦 Installation & Setup
 
-## Join the community
+### ✅ Requirements
 
-Join our community of developers creating universal apps.
+-   Node.js
+-   Expo CLI
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 📥 Clone the Repository
+
+```bash
+git clone https://github.com/jahidul2004/bmi-calculator.git
+cd bmi-calculator
+```
+
+### 📦 Install Dependencies
+
+```bash
+npm install
+```
+
+### ▶️ Run the App
+
+```bash
+npx expo start
+```
+
+Use **Expo Go** to scan the QR code or run it on your Android/iOS emulator.
+
+---
+
+## 📂 Folder Structure
+
+```
+bmi-calculator/
+│
+├── assets/
+│   ├── images/
+│   │   ├── logo.png
+│   │   ├── splash-icon.png
+│   │   ├── input.png
+│   │   └── result.png
+│
+├── app/
+│   ├── index.tsx
+│
+├── components/
+│   └── BMIForm.tsx
+│
+├── README.md
+├── app.json
+└── package.json
+```
+
+---
+
+## 💻 Technologies Used
+
+-   React Native
+-   Expo
+-   TypeScript
+-   React Hooks
+-   Expo Router
+-   Custom Splash & App Icon
+
+---
+
+## 🧑‍💻 About the Developer
+
+**Jahidul Islam Jihad**  
+🎓 Student of CST Department, 7th Semester  
+🏫 Shyamoli Ideal Polytechnic Institute  
+🧾 Board Roll: `654779`  
+🆔 College ID: `534/21 CST-111`
+
+🔗 [Visit My Portfolio](https://your-portfolio-link.com)
+
+---
+
+## 📦 APK Build Info
+
+> ⚠️ **Note:** APK file size using Expo might be large (~180MB+). You can reduce it by using **EAS Build** with **bare workflow** or building it manually in Android Studio.
+
+```bash
+eas build -p android
+```
+
+Or:
+
+```bash
+npx expo export --platform android
+```
+
+---
+
+## 🔗 GitHub Repository
+
+[👉 Click to visit the repo](https://github.com/jahidul2004/bmi-calculator)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — feel free to use and modify.
+
+---
+
+> ❤️ If you found this project helpful, give it a ⭐ on GitHub!
